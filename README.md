@@ -18,7 +18,7 @@ Unity IAP V5 기반 인앱결제 처리 코드입니다.
 - 구매 요청 전 App Store / Google Play 상품 상태 체크
 - 구매 성공 / 실패 / 보류 상태 처리
 - 구매 완료 후 보상 지급 함수 연결
-- 이미 보유한 상품, 미지급 보상 등 예외 상황 대응
+- 중복 보상 지급 및 미지급 가능성 방지
 - 영수증 기반 중복 보상 지급 방지
 - 보상 지급 후 구매 확정 처리
 
@@ -135,3 +135,26 @@ unity-mobile-code-samples
 └─ ObjectPooling
    ├─ TouchEffect.cs
    └─ TouchEffectPool.cs
+```
+
+---
+
+## 개발 환경
+
+- Unity
+- C#
+- UGUI
+- Unity IAP
+- Google Mobile Ads SDK
+- Google Play Games Services
+- Game Center
+- 뒤끝 Backend
+- Newtonsoft.Json
+
+---
+
+## 참고
+
+이 저장소는 상용 프로젝트 전체 코드가 아니라, 코드 퀄리티 확인을 위해 실제 개발·운영 경험을 바탕으로 정리한 샘플 코드입니다.
+
+실제 서비스 코드에서 사용한 민감한 키, 광고 ID, 상품 ID, 서버 정보, 프로젝트 고유 정보는 제거하거나 샘플명으로 변경했습니다.
